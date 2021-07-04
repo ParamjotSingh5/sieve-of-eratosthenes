@@ -1,0 +1,35 @@
+.earthElementContainer{
+    padding: 10px;
+    flex-grow: 0;
+    background-color: #EBEBD3;
+    border-radius: 3px;
+    margin: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    min-width: 106px;
+    cursor: pointer;
+  }
+
+  .listEle{    
+    background-color: #EBEBD3;    
+    padding: 10px;
+    margin: 10px;
+    min-width: 50px;
+    text-align: center;
+    max-width: min-content;
+  }
+  .overflow_header{
+    position: revert;
+  }
+  .List_Content{
+    overflow: auto;    
+    max-height: 400px;
+  }
+
+  .notAPrimeNumber{
+    background-color: orange;
+    opacity: 0.5;
+  }
+
+  .hide{
+    display: none;
+  }

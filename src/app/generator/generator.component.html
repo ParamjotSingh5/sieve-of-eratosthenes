@@ -1,0 +1,28 @@
+<p>limit is: {{limit}}</p>
+
+<div class="container">
+    <div class="row">        
+        <div class="col">
+            <button type="button" class="btn btn-primary" (click)="startfilteringPrime()">Start</button>
+        </div>       
+    </div>
+    <br>
+    <div class="row">
+        <div class="col">
+            <h2 class="overflow_header">List</h2>
+            <div class="row List_Content">
+                <div [ngClass]="{'notAPrimeNumber': map.checkedOut}" class="col listEle" *ngFor="let map of limitMap">
+                    <span>{{map.id}}</span>
+                </div>                
+            </div>            
+        </div>
+        <div class="col">
+            <h2 class="overflow_header">Prime Numbers</h2>            
+            <div *ngIf="_filteredPrime" class="row List_Content">
+                <div [ngClass]="{'hide': map.checkedOut}" class="col listEle" *ngFor="let map of limitMap">
+                    <span>{{map.id}}</span>
+                </div>                
+            </div>            
+        </div>
+    </div>
+</div>
