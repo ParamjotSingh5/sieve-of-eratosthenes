@@ -3,10 +3,19 @@
 <div class="container">
     <div class="row">        
         <div class="col">
-            <button type="button" class="btn btn-primary" (click)="startfilteringPrime()">Start</button>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#collapseRhythming" aria-expanded="false" aria-controls="collapseRhythming" class="btn btn-primary" (click)="startfilteringPrime()">Filter Prime</button>
         </div>       
     </div>
     <br>
+    <div class="collapse" id="collapseRhythming">
+        <div class="card">
+            <h3 class="card-header"><legend>Genre</legend></h3>
+            <div class="card-body row">
+                <div class="col listEle"> 2 </div> Prime Number
+                <div class="col listEle notAPrimeNumber"> 4 </div> Not a Prime Number
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col">
             <h2 class="overflow_header">List</h2>
