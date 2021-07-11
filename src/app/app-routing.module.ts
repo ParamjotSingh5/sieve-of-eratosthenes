@@ -4,7 +4,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { GeneratorComponent } from './generator/generator.component';
 
 const routes: Routes = [
-  {path:'', component:DashboardComponent, pathMatch:'full'},
+  {path:'', component:DashboardComponent, pathMatch:'full'},  
   {path:'generate/:id', component: GeneratorComponent}
 ];
 
