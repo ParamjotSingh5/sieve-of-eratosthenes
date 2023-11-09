@@ -13,7 +13,7 @@ To use the app, enter the desired limit in the input field and click on the `Sub
 
 ## Screenshots
 
-[Demo](https://raw.githubusercontent.com/ParamjotSingh5/sieve-of-eratosthenes/main/docs/SieveOfEratosthenes_Demo.png)
+![Demo](https://raw.githubusercontent.com/ParamjotSingh5/sieve-of-eratosthenes/main/docs/SieveOfEratosthenes_Demo.png)
 
 ## Demo
 
