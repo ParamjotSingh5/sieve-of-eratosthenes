@@ -1,27 +1,21 @@
-# SieveOfEratosthenes
+## Angular App Using Sieve of Eratosthenes Algorithm to Filter Out Prime Numbers
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.13.
+This Angular app implements the Sieve of Eratosthenes algorithm to filter out prime numbers. The Sieve of Eratosthenes is a simple and efficient algorithm for finding all prime numbers up to a given limit. 
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Allows users to generate a list of prime numbers up to a given limit
+Displays the generated list of prime numbers in a table
 
-## Code scaffolding
+## Usage
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To use the app, enter the desired limit in the input field and click on the `Submit` button, Click on the `Filter Prime` button. The app will display two separate sections one that lists all of the numbers and then the other one (Prime Numbers) section will have all of the prime numbers up to the requested limit.
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+[Demo](https://raw.githubusercontent.com/ParamjotSingh5/sieve-of-eratosthenes/main/docs/SieveOfEratosthenes_Demo.png)
 
-## Running unit tests
+## Demo
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[https://paramjotsingh5.github.io/sieve-of-eratosthenes/](https://paramjotsingh5.github.io/sieve-of-eratosthenes/)
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
